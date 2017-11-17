@@ -3,7 +3,8 @@ const filesToCache = [
   '/',
   '/index.html',
   '/styles.css',
-  'https://youtu.be/OdSoFm1fjIY'
+  '/funny_kids_laughing.mp4',
+  'https://www.youtube.com/embed/XGSy3_Czz8k?controls=1'
 ];
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
