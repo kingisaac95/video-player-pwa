@@ -1,4 +1,3 @@
-importScripts('/cache-polyfill.js');
 const cacheName = 'dev-fest-pwa';
 const filesToCache = [
   '/',
