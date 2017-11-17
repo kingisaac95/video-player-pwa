@@ -2,7 +2,22 @@
   "short_name": "PWA V-Player",
   "name": "DevFestSW - Video Player PWA",
   "start_url": "./index.html",
-    "icons": [
+    "img": [
+      {
+        "src": "img/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
       {
         "src": "img/icon-192x192.png",
         "sizes": "192x192",
@@ -12,6 +27,11 @@
         "src": "img/icon-256x256.png",  
         "sizes": "256x256",  
         "type": "image/png"  
+      },
+      {
+        "src": "img/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
       }
   ],
   "theme_color": "#334043",
