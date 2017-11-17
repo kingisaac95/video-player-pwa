@@ -3,7 +3,7 @@ const filesToCache = [
   '/',
   '/index.html',
   '/styles/styles.css',
-  '/video/funny_kids_laughing.mp4',
+  '/video/mila.mp4',
 ];
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
