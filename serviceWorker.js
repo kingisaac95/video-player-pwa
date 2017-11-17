@@ -2,8 +2,6 @@ const cacheName = 'dev-fest-pwa';
 const filesToCache = [
   '/',
   '/index.html',
-  '/index.html?homescreen=1',
-  '/?homescreen=1',
   '/styles/styles.css',
   '/video/funny_kids_laughing.mp4',
 ];
