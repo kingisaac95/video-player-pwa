@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="./manifest.json">
   <script>
     if('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/serviceWorker.js')
+      navigator.serviceWorker.register('./serviceWorker.js')
         .then(function() {
           console.log('Service Worker Registered');
       });
@@ -21,11 +21,6 @@
     <source src="./funny_kids_laughing.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
   </video>
-
-  <iframe width="420" height="315"
-  src="https://www.youtube.com/embed/XGSy3_Czz8k?controls=1">
-  </iframe>
-  
   <p>Sample PWA Video Player - DevFestSW</p>
 </body>
 </html>
