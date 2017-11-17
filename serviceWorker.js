@@ -2,7 +2,8 @@ const cacheName = 'sample-pwa';
 const filesToCache = [
   '/',
   '/index.html',
-  '/styles.css'
+  '/styles.css',
+  'https://youtu.be/OdSoFm1fjIY'
 ];
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
