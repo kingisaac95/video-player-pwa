@@ -1,9 +1,12 @@
-const cacheName = 'sample-pwa';
+importScripts('/cache-polyfill.js');
+const cacheName = 'dev-fest-pwa';
 const filesToCache = [
   '/',
   '/index.html',
-  '/styles.css',
-  '/funny_kids_laughing.mp4',
+  '/index.html?homescreen=1',
+  '/?homescreen=1',
+  '/styles/styles.css',
+  '/video/funny_kids_laughing.mp4',
 ];
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');

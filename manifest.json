@@ -1,10 +1,21 @@
 {
-  "short_name": "Sample PWA",
-  "name": "Sample PWA App DevFestSW",
-    "icons": [{
-      "src": "launcher-icon-4x.png","sizes": "192x192"
-    }],
-  "start_url": "index.html?launcher=true",
+  "short_name": "PWA V-Player",
+  "name": "DevFestSW - Video Player PWA",
+  "start_url": "./index.html",
+    "icons": [
+      {
+        "src": "img/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {  
+        "src": "img/icon-256x256.png",  
+        "sizes": "256x256",  
+        "type": "image/png"  
+      },
+  ],
+  "theme_color": "#334043",
+  "background_color": "#334043",
   "display": "standalone",
-  "theme_color": "#FF9800"
+  "orientation": "portrait"
 }

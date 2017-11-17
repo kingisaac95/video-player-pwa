@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <meta name="theme-color" content="#334043"/>
   <link rel="manifest" href="./manifest.json">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>DevFest - Video Player PWA</title>
   <script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./serviceWorker.js')
@@ -13,14 +16,68 @@
           console.log('Service Worker Registered');
       });
     }
-  </script>  
+  </script>
+  <style>
+    body, html {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #111010;
+      background-color: #000000;
+    }
+
+    .title {
+      text-align: center;
+      color: #ffffff;
+      padding-bottom: 10px;
+    }
+
+    video {
+      margin-left: 5%;
+    }
+
+    .wrapper {
+      background-color: #ffffff;
+    }
+
+    .banner {
+      padding: 10px 0;
+    }
+
+    .body-text {
+      padding: 20px 5%;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello world</h1>
-  <video width="400" controls>
-    <source src="./funny_kids_laughing.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-  </video>
-  <p>Sample PWA Video Player - DevFestSW</p>
+  <div class="banner">
+    <h2 class="title">DevFestSW - Video Player PWA</h2>
+    <video width="90%" controls>
+      <source src="./video/funny_kids_laughing.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+  <div class="wrapper">
+    <div class="body-text">
+      <p>A minimal PWA Video Player built for DevFestSW</p>
+      <hr>
+      <h4>Features:</h4>
+      <p>Install to home screen</p>
+      <p>Offline capability</p>
+      <hr>
+      <h4>Tools:</h4>
+      <p>HTML5, CSS, JavaScript</p>
+      <hr>
+      <p>Built with <span class="char u2400">♥</span> by <a href="https://twitter.com/kingisaac95">@kingisaac95</a></p>
+      </p>
+    </div>
+  </div>
 </body>
 </html>
