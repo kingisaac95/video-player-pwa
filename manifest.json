@@ -1,8 +1,8 @@
 {
   "short_name": "PWA V-Player",
   "name": "DevFestSW - Video Player PWA",
-  "start_url": "./index.html",
-    "img": [
+  "start_url": "/index.html",
+  "img": [
       {
         "src": "img/icon-128x128.png",
         "sizes": "128x128",
