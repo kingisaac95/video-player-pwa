@@ -1,0 +1,36 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #111010;
+  background-color: #334043;
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+video {
+  margin-left: 5%;
+}
+
+.wrapper {
+  background-color: #ffffff;
+}
+
+.banner {
+  padding: 10px 0;
+}
+
+.body-text {
+  padding: 20px 5%;
+}
+
+a {
+  text-decoration: none;
+}
