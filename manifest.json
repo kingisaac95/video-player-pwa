@@ -1,0 +1,10 @@
+{
+  "short_name": "Sample PWA",
+  "name": "Sample PWA App DevFestSW",
+    "icons": [{
+      "src": "launcher-icon-4x.png","sizes": "192x192"
+    }],
+  "start_url": "index.html?launcher=true",
+  "display": "standalone",
+  "theme_color": "#FF9800"
+}
